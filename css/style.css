@@ -280,7 +280,20 @@ header .icons #menu-bars{
     left:1.5rem;
 }
 
-.dishes .box-container .box img{
+/* .dishes .box-container .box img{
+    height:17rem;
+    margin:1rem 0;
+} */
+
+.dishes .box-container .box .image{
+    height: 25rem;
+    width: 100%;
+    padding:1.5rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.dishes .box-container .box .image img{
     height: 100%;
     width: 100%;
     border-radius: .5rem;
@@ -773,3 +786,4 @@ header .icons #menu-bars{
     }
 
 }
+
